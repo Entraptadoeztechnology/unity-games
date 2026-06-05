@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+	<base href="https://gcore.jsdelivr.net/gh/marty-games/mga-unityx@main/slide-down/">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" href="26010801/theme/game.css">
@@ -25,16 +26,16 @@
 	</style> 
 	 
 	<script>
-		var buildUrl = "Build";
+		var buildUrl = "https://gcore.jsdelivr.net/gh/marty-games/mga-unityx@main/slide-down/Build";
 		var versionFolder = "26010801/";
 		buildUrl = "./"+versionFolder + buildUrl;
 		var loaderUrl = buildUrl + "/slide-down-v26010801.loader.js";
 		var config = {
-			dataUrl: buildUrl + "/slide-down-v26010801.data.unityweb",
+			dataUrl: "https://raw.githack.com/marty-games/mga-unityx/main/slide-down/26010801/Build/slide-down-v26010801.data.unityweb",
 			frameworkUrl: buildUrl + "/slide-down-v26010801.framework.js",
 			codeUrl: buildUrl + "/slide-down-v26010801.wasm.unityweb",
 			streamingAssetsUrl: versionFolder+"StreamingAssets",
-			companyName: "azgames.io",
+			companyName: "Marty Games",
 			productName: "Slide Down",
 			productVersion: "26010801"
 		};
@@ -172,7 +173,7 @@ const firebaseConfig = {
 				firebase.analytics().logEvent(event_name, event_param);						
 		}
 	</script>
-	
+	<script src="https://gcore.jsdelivr.net/gh/marty-games/shared@main/sitelock.js"></script>
 </body>	
 </html>
 
